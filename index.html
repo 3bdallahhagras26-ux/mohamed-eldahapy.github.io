@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Mohamed Elsayed Eldahapy | General Dental Practitioner</title>
+<meta name="description" content="Clinical portfolio and resume of Dr. Mohamed Elsayed Eldahapy, B.D.S. Endodontics, esthetic restorations, extractions and periodontics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{navy:'#0f172a',teal:{DEFAULT:'#0d9488',dark:'#0f766e'},ice:'#f8fafc'},fontFamily:{display:['Fraunces','Georgia','serif'],sans:['Manrope','system-ui','sans-serif']}}}}
+</script>
+<style>
+html{scroll-padding-top:76px}
+body{font-family:'Manrope',system-ui,sans-serif}
+.card img{transition:transform .5s ease}
+.card:hover img{transform:scale(1.06)}
+.chip[aria-pressed=true]{background:#0f172a;color:#fff;border-color:#0f172a}
+.hero-grid{background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:36px 36px}
+:focus-visible{outline:3px solid #0d9488;outline-offset:2px}
+#lb{animation:fade .2s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body class="bg-ice text-slate-700 antialiased">
+
+<!-- Header -->
+<header class="sticky top-0 z-40 bg-navy/95 backdrop-blur text-white border-b border-white/10">
+  <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
+    <a href="#top" class="font-display text-lg font-semibold whitespace-nowrap"><i class="fa-solid fa-tooth text-teal mr-2"></i>Dr. Mohamed Elsayed</a>
+    <nav class="hidden lg:flex gap-6 text-sm font-medium text-slate-300" aria-label="Main">
+      <a class="hover:text-white" href="#about">About</a><a class="hover:text-white" href="#cv">CV</a><a class="hover:text-white" href="#skills">Skills</a><a class="hover:text-white" href="#portfolio">Portfolio</a><a class="hover:text-white" href="#contact">Contact</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="https://wa.me/201021198124" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-semibold bg-teal hover:bg-teal-dark rounded-lg px-3 py-2"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></a>
+      <button id="menuBtn" class="lg:hidden w-10 h-10 rounded-lg hover:bg-white/10" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+  <nav id="mobileNav" class="hidden lg:hidden border-t border-white/10 px-4 py-3 grid grid-cols-2 gap-1 text-sm text-slate-200" aria-label="Mobile">
+    <a class="py-2" href="#about">About</a><a class="py-2" href="#cv">CV</a><a class="py-2" href="#skills">Skills</a><a class="py-2" href="#portfolio">Portfolio</a><a class="py-2" href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+<!-- Hero -->
+<section id="about" class="relative bg-navy text-white overflow-hidden hero-grid">
+  <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-5 gap-10 items-center">
+    <div class="md:col-span-3">
+      <p class="text-teal font-semibold text-sm mb-4">General Dental Practitioner · B.D.S, Delta University</p>
+      <h1 class="font-display text-4xl sm:text-6xl font-semibold leading-[1.05]">Dr. Mohamed<br>Elsayed Eldahapy</h1>
+      <p class="mt-6 text-slate-300 text-lg max-w-xl leading-relaxed">Root canals, esthetic composites, extractions and scaling, each documented from first radiograph to final restoration. Browse the real cases below.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="#portfolio" class="bg-teal hover:bg-teal-dark px-5 py-3 rounded-lg font-semibold">View clinical cases</a>
+      </div>
+    </div>
+    <div class="md:col-span-2 grid grid-cols-2 gap-3 text-center">
+      <div class="rounded-xl bg-white/5 border border-white/10 p-5"><p id="caseCount" class="font-display text-4xl">28</p><p class="text-sm text-slate-300 mt-1">Documented cases</p></div>
+      <div class="rounded-xl bg-white/5 border border-white/10 p-5"><p class="font-display text-4xl">2023</p><p class="text-sm text-slate-300 mt-1">In clinical practice since</p></div>
+      <div class="rounded-xl bg-white/5 border border-white/10 p-5"><p class="font-display text-4xl">3.32</p><p class="text-sm text-slate-300 mt-1">Graduation GPA</p></div>
+      <div class="rounded-xl bg-white/5 border border-white/10 p-5"><p class="font-display text-4xl">2025</p><p class="text-sm text-slate-300 mt-1">B.D.S graduate</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CV -->
+<section id="cv" class="max-w-6xl mx-auto px-4 py-16">
+  <h2 class="font-display text-3xl text-navy">Education and experience</h2>
+  <div class="mt-8 grid md:grid-cols-3 gap-6">
+    <article class="bg-white rounded-xl border border-slate-200 p-6">
+      <i class="fa-solid fa-graduation-cap text-teal text-xl"></i>
+      <h3 class="mt-3 font-bold text-navy">Bachelor of Oral and Dental Medicine and Surgery</h3>
+      <p class="text-sm mt-1">Delta University for Science and Technology, Damietta</p>
+      <p class="text-sm text-slate-500 mt-3">Sep 2019 – Jun 2025 · GPA 3.32</p>
+    </article>
+    <article class="bg-white rounded-xl border border-slate-200 p-6">
+      <i class="fa-solid fa-user-doctor text-teal text-xl"></i>
+      <h3 class="mt-3 font-bold text-navy">Second Supervisor</h3>
+      <p class="text-sm mt-1">Khairi Clinic, Abu Kabir, Sharqia</p>
+      <p class="text-sm text-slate-500 mt-3">Feb 2023 – Jun 2025</p>
+    </article>
+    <article class="bg-white rounded-xl border border-slate-200 p-6">
+      <i class="fa-solid fa-user-doctor text-teal text-xl"></i>
+      <h3 class="mt-3 font-bold text-navy">Assistant Doctor</h3>
+      <p class="text-sm mt-1">ORA Training Center, Nasr City</p>
+      <p class="text-sm text-slate-500 mt-3">Jun 2025 – Jul 2025</p>
+    </article>
+  </div>
+  <p class="mt-6 text-sm">Interests: oral and dental surgery, endodontic therapy.</p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="bg-white border-y border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="font-display text-3xl text-navy">Clinical skills</h2>
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-8">
+      <div><h3 class="font-bold text-navy"><i class="fa-solid fa-circle-nodes text-teal mr-2"></i>Endodontic therapy</h3><p class="text-sm mt-1">Single and multi-root canals, rotary systems, apex locators.</p></div>
+      <div><h3 class="font-bold text-navy"><i class="fa-solid fa-tooth text-teal mr-2"></i>Operative and esthetic</h3><p class="text-sm mt-1">Anterior and posterior composites, rubber dam isolation.</p></div>
+      <div><h3 class="font-bold text-navy"><i class="fa-solid fa-scissors text-teal mr-2"></i>Oral and maxillofacial</h3><p class="text-sm mt-1">Simple and surgical extractions.</p></div>
+      <div><h3 class="font-bold text-navy"><i class="fa-solid fa-broom text-teal mr-2"></i>Periodontics</h3><p class="text-sm mt-1">Ultrasonic scaling and root planing.</p></div>
+      <div><h3 class="font-bold text-navy"><i class="fa-solid fa-x-ray text-teal mr-2"></i>Prosthetics and diagnosis</h3><p class="text-sm mt-1">Fixed and removable basics, X-ray interpretation.</p></div>
+      <div><h3 class="font-bold text-navy"><i class="fa-solid fa-camera text-teal mr-2"></i>Clinical photography</h3><p class="text-sm mt-1">Step-by-step case documentation, as shown below.</p></div>
+      <div><h3 class="font-bold text-navy"><i class="fa-solid fa-laptop-medical text-teal mr-2"></i>Digital Dentistry</h3><p class="text-sm mt-1">exocad design and intraoral scanner workflows.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="max-w-6xl mx-auto px-4 py-16">
+  <h2 class="font-display text-3xl text-navy">Clinical portfolio</h2>
+  <p class="mt-2 max-w-2xl">Select a category to filter, or tap any photo to view it full screen. Patient faces are not shown.</p>
+  <div id="filters" class="mt-8 flex flex-wrap gap-2" role="group" aria-label="Filter cases"></div>
+  <p id="count" class="mt-4 text-sm text-slate-500" aria-live="polite"></p>
+  <div id="grid" class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-navy text-white">
+  <div class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="font-display text-3xl">Get in touch</h2>
+      <p class="mt-3 text-slate-300 max-w-md">Available for assistant and associate positions in general dentistry.</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="https://wa.me/201021198124" target="_blank" rel="noopener" class="bg-teal hover:bg-teal-dark px-5 py-3 rounded-lg font-semibold"><i class="fa-brands fa-whatsapp mr-2"></i>Message on WhatsApp</a>
+      </div>
+    </div>
+    <ul class="space-y-4 text-slate-200">
+      <li><i class="fa-solid fa-phone w-6 text-teal"></i><a class="hover:text-white" href="tel:+201021198124">+20 102 119 8124</a></li>
+      <li><i class="fa-solid fa-envelope w-6 text-teal"></i><a class="hover:text-white break-all" href="mailto:mohammedeldahapy@gmail.com">mohammedeldahapy@gmail.com</a></li>
+      <li><i class="fa-solid fa-location-dot w-6 text-teal"></i>Nasr City, Cairo / Abu Kabir, Sharqia, Egypt</li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer class="bg-navy border-t border-white/10 text-slate-400 text-sm text-center py-6">© <span id="yr"></span> Dr. Mohamed Elsayed Eldahapy</footer>
+
+<!-- Lightbox -->
+<div id="lb" class="hidden fixed inset-0 z-50 bg-navy/95 flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-label="Case image viewer">
+  <button id="lbClose" class="absolute top-4 right-4 w-11 h-11 rounded-full bg-white/10 hover:bg-white/20 text-white text-xl" aria-label="Close (Esc)"><i class="fa-solid fa-xmark"></i></button>
+  <button id="lbPrev" class="absolute left-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/10 hover:bg-white/20 text-white" aria-label="Previous case"><i class="fa-solid fa-chevron-left"></i></button>
+  <button id="lbNext" class="absolute right-3 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/10 hover:bg-white/20 text-white" aria-label="Next case"><i class="fa-solid fa-chevron-right"></i></button>
+  <figure class="max-w-4xl w-full text-center">
+    <img id="lbImg" src="" alt="" class="max-h-[78vh] mx-auto rounded-lg object-contain">
+    <figcaption id="lbCap" class="mt-3 text-slate-200 text-sm"></figcaption>
+  </figure>
+</div>
+
+<script>
+const CATS={endo:'Endodontics',op:'Operative Restorations',surg:'Oral Surgery & Extractions',perio:'Periodontics & Scaling'};
+const BADGE={endo:'Endodontics',op:'Operative',surg:'Oral Surgery',perio:'Periodontics'};
+const CASES=[
+["endo","mandible permanent first molar vital pulp therapy","(direct pulpcapping by MTA)"],
+["op","Direct composite restoration in lower left wisdom tooth with rubber dam isolation",""],
+["endo","Maxillary premolar Endodontic treatment two canals typell by dioceramic sealer and composite restoration under rubber dam isolation",""],
+["perio","Removal of calculus",""],
+["op","Anterior composite Build-up to big shape lateral",""],
+["endo","Upper left canine endodontic treatment","Long root of Upper left canine(WL 30.5mm) with double curved canal s shape canal with composite restoration"],
+["endo","Maxillary left first molar Mb1 and Mb2 typell endodontic treatment and composite restoration in one visit",""],
+["endo","Mandibular left second molar endodontic treatment by bioceramic sealer with composite restoration by EverX",""],
+["endo","Upper right first premolar Endodontic treatment two canals with composite restoration",""],
+["op","Venner (composite Venner)","All anterior teeth discoloration and initial caires Repaired by composite restoration"],
+["endo","Mandibular right first molar endodontic treatment mesial canals typell and distal canals typell with apical curved in the canals composite restoration",""],
+["op","Build-up distal tooth deep cavity class ll by composite restoration after endodontic treatment with rubber dam isolation",""],
+["op","Amalgam replacement to composite restoration","Replacement filling restoration to composite restoration with removal to mesial crack in the mesial ridge with resin ring used"],
+["surg","Extraction of upper left second premolar and remaining root of first premolar in 2 minutes",""],
+["op","Retreatment of amalgam and recurrent caries under the amalgam we replaced it with composite restoration",""],
+["endo","Lower left second premolar endo treatment and composite restoration",""],
+["op","Mandibular second molar operative by composite restoration under rubber dam isolation",""],
+["surg","Extraction of right lower wisdom tooth close to Mandibular canal in 3 minutes",""],
+["endo","Lower right second premolar endo treatment and composite restoration",""],
+["surg","Extraction Lower right wisdom tooth","The tooth very close to the Mandibular canal and apical curved of the mesial root"],
+["endo","Pulpictomy in the lower right D and Resin modified glass Ionomer restoration",""],
+["endo","Difficult case Upper left first molar and composite restoration with deep marginal elevation mesial and pulp polyp removed using therma cut bur and pulp stone in the pulp chambe",""],
+["op","Lower right second molar mesial and occlusal caires removed and composite restoration",""],
+["op","Lower left first molar in the occlusal surface",""],
+["endo","Lower right first molar endodontic treatment mesial canals typell and composite restoration",""],
+["op","Lower right wisdom tooth class I and rubber dam isolation",""],
+["endo","Upper left first molar endodontic treatment and replacement of amalgam two composite restoration",""],
+["op","Occlusal and lingual caires in the lower right first molar","Build-up by composite"]
+].map((c,i)=>({id:i+1,cat:c[0],title:c[1],desc:c[2],img:`images/case (${i+1}).jpg`}));
+
+const PH="data:image/svg+xml;utf8,"+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><rect width="100%" height="100%" fill="#e2e8f0"/><g fill="#94a3b8" font-family="sans-serif" text-anchor="middle"><text x="400" y="290" font-size="64">&#129503;</text><text x="400" y="350" font-size="24">Image not available</text></g></svg>');
+const $=s=>document.querySelector(s);
+let active='all', shown=[], idx=0;
+
+function renderFilters(){
+  const items=[['all','All Cases'],...Object.entries(CATS)];
+  $('#filters').innerHTML=items.map(([k,l])=>`<button class="chip px-4 py-2 rounded-full border border-slate-300 bg-white text-sm font-semibold hover:border-teal" data-k="${k}" aria-pressed="${k===active}">${l}</button>`).join('');
+}
+function renderGrid(){
+  shown=CASES.filter(c=>active==='all'||c.cat===active);
+  $('#count').textContent=`Showing ${shown.length} of ${CASES.length} cases`;
+  $('#grid').innerHTML=shown.map((c,i)=>`
+  <article class="card bg-white rounded-xl border border-slate-200 overflow-hidden flex flex-col">
+    <button class="relative block aspect-[4/3] overflow-hidden bg-slate-200 group" data-i="${i}" aria-label="Open image: ${c.title}">
+      <img src="${c.img}" alt="${c.title}" loading="lazy" class="w-full h-full object-cover">
+      <span class="absolute top-3 left-3 bg-navy/90 text-white text-xs font-semibold px-3 py-1 rounded-full">${BADGE[c.cat]}</span>
+      <span class="absolute bottom-3 right-3 w-9 h-9 rounded-full bg-white/90 text-navy grid place-items-center opacity-0 group-hover:opacity-100 group-focus-visible:opacity-100 transition"><i class="fa-solid fa-expand"></i></span>
+    </button>
+    <div class="p-5">
+      <h3 class="font-bold text-navy leading-snug">${c.title}</h3>
+      ${c.desc?`<p class="text-sm mt-2 leading-relaxed">${c.desc}</p>`:''}
+    </div>
+  </article>`).join('');
+  document.querySelectorAll('#grid img').forEach(im=>im.addEventListener('error',()=>{im.onerror=null;im.src=PH;im.dataset.missing=1},{once:true}));
+}
+function openLb(i){
+  idx=(i+shown.length)%shown.length; const c=shown[idx], im=$('#lbImg');
+  im.onerror=()=>{im.onerror=null;im.src=PH};
+  im.src=c.img; im.alt=c.title; $('#lbCap').textContent=`${c.title} (${idx+1}/${shown.length})`;
+  $('#lb').classList.remove('hidden'); document.body.style.overflow='hidden'; $('#lbClose').focus();
+}
+function closeLb(){ $('#lb').classList.add('hidden'); document.body.style.overflow=''; }
+
+$('#filters').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;active=b.dataset.k;renderFilters();renderGrid();});
+$('#grid').addEventListener('click',e=>{const b=e.target.closest('button[data-i]');if(b)openLb(+b.dataset.i);});
+$('#lbClose').onclick=closeLb;
+$('#lbPrev').onclick=()=>openLb(idx-1);
+$('#lbNext').onclick=()=>openLb(idx+1);
+$('#lb').addEventListener('click',e=>{if(e.target.id==='lb')closeLb();});
+document.addEventListener('keydown',e=>{
+  if($('#lb').classList.contains('hidden'))return;
+  if(e.key==='Escape')closeLb();
+  if(e.key==='ArrowLeft')openLb(idx-1);
+  if(e.key==='ArrowRight')openLb(idx+1);
+});
+$('#menuBtn').onclick=()=>{const m=$('#mobileNav'),o=m.classList.toggle('hidden');$('#menuBtn').setAttribute('aria-expanded',!o);};
+$('#mobileNav').addEventListener('click',e=>{if(e.target.tagName==='A')$('#mobileNav').classList.add('hidden');});
+$('#yr').textContent=new Date().getFullYear();
+$('#caseCount').textContent=CASES.length;
+renderFilters();renderGrid();
+</script>
+</body>
+</html>
